@@ -12320,6 +12320,12 @@ public final class Settings {
          */
         public static final String QS_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
 
+	/**
+	 * Control whether to spoof current status of storage encryption.
+	 */
+	@Readable
+	public static final String SPOOF_STORAGE_ENCRYPTION_STATUS = "spoof_storage_encryption_status";
+
         /**
          * Enable udfps detection even when screen is off
          * Default value is 0
