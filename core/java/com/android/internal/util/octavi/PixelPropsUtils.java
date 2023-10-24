@@ -278,6 +278,7 @@ public class PixelPropsUtils {
                 setPropValue(key, value);
             }
             if (packageName.equals("com.google.android.gms")) {
+                setPropValue("TIME", System.currentTimeMillis());
                 if (processName.equals("com.google.android.gms.unstable")) {
                     sIsGms = true;
                     spoofBuildGms();
